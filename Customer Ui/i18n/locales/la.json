@@ -1,0 +1,80 @@
+{
+  "welcome": "ຍິນດີຕ້ອນຮັບສູ່ Noj Tshiab Peb Caug",
+  "system_name": {
+    "en": "Noj Tshiab Peb Caug",
+    "la": "ບຸນກິນຈຽງ (Noj Tshiab Peb Caug)"
+  },
+  "menu": {
+    "home": "ໜ້າຫຼັກ",
+    "festival_management": "ຈັດການງານບຸນ",
+    "booth_management": "ຈັດການບູດ",
+    "booth_subtitle": "ກວດສອບການຈອງ ແລະ ແຜນຜັງ",
+    "sms_reports": "ລາຍງານ SMS",
+    "sms_subtitle": "ຕິດຕາມການສົ່ງຂໍ້ຄວາມແຈ້ງເຕືອນ",
+    "users": "ຜູ້ໃຊ້ງານ (Users)",
+    "profile": "ຂໍ້ມູນສ່ວນຕົວ (Profile)",
+    "settings": "ຕັ້ງຄ່າ (Settings)",
+    "user_management": "ຈັດການຜູ້ໃຊ້ງານ (User Management)",
+    "add_user": "ເພີ່ມຜູ້ໃຊ້ (Add User)",
+    "edit_user": "ແກ້ໄຂຜູ້ໃຊ້ (Edit User)",
+    "settings_subtitle": "ຈັດການຂໍ້ມູນຜູ້ໃຊ້ ແລະ ທົ່ວໄປ",
+    "report": "ລະບົບລາຍງານ",
+    "open": "ເຂົ້າເບິ່ງ"
+  },
+  "user": {
+    "username": "ຊື່ຜູ້ໃຊ້ (Username)",
+    "role": "ບົດບາດ (Role)",
+    "status": "ສະຖານະ (Status)",
+    "phone": "ເບີໂທ (Phone)",
+    "last_login": "ເຂົ້າລະບົບຫຼ້າສຸດ (Last Login)",
+    "actions": "ຈັດການ (Actions)",
+    "active": "ເປີດໃຊ້ (Active)",
+    "inactive": "ປິດໃຊ້ (Inactive)"
+  },
+  "booths": {
+    "title": "ຈັດການບູດ",
+    "subtitle": "ກວດສອບ ແລະ ອະນຸມັດການຈອງບູດໃນງານ Noj Tshiab Peb Caug",
+    "refresh": "ໂຫຼດຄືນ (Refresh)",
+    "map_plan": "ແຜນຜັງບູດ",
+    "interactive_map": "Interactive Map Plan",
+    "insights": "ຂໍ້ມູນສັງລວມ (Insights)",
+    "zone_details": "ລາຍລະອຽດການຈອງແຍກຕາມໂຊນ",
+    "latest_alerts": "ແຈ້ງເຕືອນລ້າສຸດ",
+    "booking_list": "ລາຍການຈອງ",
+    "booking_requests": "ຈັດການການຈອງທີ່ລໍຖ້າການກວດສອບ (Booking Requests)",
+    "stats": {
+      "total": "ບູດທັງໝົດ",
+      "booked": "ຈອງແລ້ວ",
+      "pending": "ລໍຖ້າອະນຸມັດ",
+      "available": "ບູດວ່າງ"
+    },
+    "toast": {
+      "updated": "ຂໍ້ມູນຖືກອັບເດດແລ້ວ",
+      "available": "ບູດ {id} ຍັງຫວ່າງ",
+      "approved": "ອະນຸມັດການຈອງສຳເລັດແລ້ວ!",
+      "rejected": "ປະຕິເສດການຈອງແລ້ວ"
+    }
+  },
+  "booking": {
+    "title": "ຈອງບູດ",
+    "steps": {
+      "info": "ຂໍ້ມູນ",
+      "payment": "ຊຳລະເງິນ",
+      "confirm": "ຢືນຢັນ"
+    },
+    "store_info_title": "ກະລຸນາປ້ອນຂໍ້ມູນຮ້ານຄ້າ",
+    "payment_title": "ຊຳລະເງິນຜ່ານ QR Code",
+    "confirm_title": "ກວດສອບຂໍ້ມູນຄືນໃໝ່",
+    "price": "ລາຄາ",
+    "booth": "ບູດ",
+    "store_name": "ຊື່ຮ້ານ",
+    "owner_name": "ຊື່ເຈົ້າຂອງ",
+    "phone": "ເບີໂທ",
+    "category": "ປະເພດບູດ",
+    "upload_slip": "ອັບໂຫຼດໃບບິນ",
+    "back": "ກັບຄືນ",
+    "next": "ຕໍ່ໄປ",
+    "confirm_booking": "ຢືນຢັນການຈອງ",
+    "wait_approval": "ຫຼັງຈາກກົດຢືນຢັນ, ຜູ້ຈັດງານຈະກວດສອບພາຍໃນ 24 ຊົ່ວໂມງ."
+  }
+}

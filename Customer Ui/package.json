@@ -1,0 +1,36 @@
+{
+  "name": "Report_Komsamlak",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxt/eslint": "^1.13.0",
+    "@nuxt/fonts": "^0.13.0",
+    "@nuxt/icon": "^2.2.1",
+    "@nuxtjs/i18n": "^10.2.1",
+    "@pinia/nuxt": "^0.11.3",
+    "chart.js": "^4.5.1",
+    "eslint": "^9.39.2",
+    "exceljs": "^4.4.0",
+    "nuxt": "^4.3.0",
+    "pdfmake": "^0.3.3",
+    "pinia": "^3.0.4",
+    "sass": "^1.97.3",
+    "vite-plugin-vuetify": "^2.1.3",
+    "vue": "^3.5.27",
+    "vue-chartjs": "^5.3.3",
+    "vue-router": "^4.6.4",
+    "vuetify": "^3.11.8",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3"
+  }
+}

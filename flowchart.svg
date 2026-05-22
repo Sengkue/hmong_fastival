@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 2000" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+    <linearGradient id="startEnd" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#27ae60"/>
+      <stop offset="100%" style="stop-color:#2ecc71"/>
+    </linearGradient>
+    <linearGradient id="process" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db"/>
+      <stop offset="100%" style="stop-color:#2980b9"/>
+    </linearGradient>
+    <linearGradient id="decision" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f39c12"/>
+      <stop offset="100%" style="stop-color:#e67e22"/>
+    </linearGradient>
+    <linearGradient id="database" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8e44ad"/>
+      <stop offset="100%" style="stop-color:#6c3483"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Title -->
+  <rect x="350" y="10" width="700" height="50" rx="10" fill="#1a5276"/>
+  <text x="700" y="42" text-anchor="middle" fill="white" font-size="22" font-weight="bold">Airport Booth Booking System - Complete Flow for AI Generation</text>
+
+  <!-- START -->
+  <ellipse cx="700" cy="100" rx="80" ry="30" fill="url(#startEnd)"/>
+  <text x="700" y="106" text-anchor="middle" fill="white" font-size="14" font-weight="bold">START</text>
+
+  <line x1="700" y1="130" x2="700" y2="160" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Phase 1: Database -->
+  <rect x="450" y="160" width="500" height="45" rx="8" fill="url(#database)"/>
+  <text x="700" y="180" text-anchor="middle" fill="white" font-size="13" font-weight="bold">📦 PHASE 1: Create Database Schema</text>
+  <text x="700" y="195" text-anchor="middle" fill="white" font-size="11">users · airports · zones · booths · bookings</text>
+
+  <line x1="700" y1="205" x2="700" y2="240" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Phase 2: Backend -->
+  <rect x="450" y="240" width="500" height="45" rx="8" fill="url(#process)"/>
+  <text x="700" y="260" text-anchor="middle" fill="white" font-size="13" font-weight="bold">🖥️ PHASE 2: Backend API (Node.js + Express)</text>
+  <text x="700" y="275" text-anchor="middle" fill="white" font-size="11">CRUD endpoints · JWT Auth · Role-based access</text>
+
+  <line x1="700" y1="285" x2="700" y2="320" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Phase 3: Admin UI -->
+  <rect x="450" y="320" width="500" height="45" rx="8" fill="url(#process)"/>
+  <text x="700" y="340" text-anchor="middle" fill="white" font-size="13" font-weight="bold">👑 PHASE 3: Admin Dashboard with Google Maps Drawing</text>
+  <text x="700" y="355" text-anchor="middle" fill="white" font-size="11">Draw zones · Save shapes · Manage airports · Approve booths</text>
+
+  <line x1="700" y1="365" x2="700" y2="400" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Phase 4: Owner UI -->
+  <rect x="450" y="400" width="500" height="45" rx="8" fill="url(#process)"/>
+  <text x="700" y="420" text-anchor="middle" fill="white" font-size="13" font-weight="bold">🏪 PHASE 4: Owner Dashboard</text>
+  <text x="700" y="435" text-anchor="middle" fill="white" font-size="11">CRUD booths · View bookings · Manage own zones only</text>
+
+  <line x1="700" y1="445" x2="700" y2="480" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Phase 5: Customer UI -->
+  <rect x="450" y="480" width="500" height="45" rx="8" fill="url(#process)"/>
+  <text x="700" y="500" text-anchor="middle" fill="white" font-size="13" font-weight="bold">👤 PHASE 5: Customer Portal</text>
+  <text x="700" y="515" text-anchor="middle" fill="white" font-size="11">Search airport · View zones on map · Book booths · My bookings</text>
+
+  <line x1="700" y1="525" x2="700" y2="560" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Decision: Test? -->
+  <polygon points="700,565 820,620 700,675 580,620" fill="url(#decision)"/>
+  <text x="700" y="615" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Test</text>
+  <text x="700" y="630" text-anchor="middle" fill="white" font-size="11">System?</text>
+
+  <!-- NO loop back -->
+  <line x1="580" y1="620" x2="400" y2="620" stroke="#e74c3c" stroke-width="2" stroke-dasharray="6,3"/>
+  <line x1="400" y1="620" x2="400" y2="342" stroke="#e74c3c" stroke-width="2" stroke-dasharray="6,3"/>
+  <line x1="400" y1="342" x2="445" y2="342" stroke="#e74c3c" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+  <text x="410" y="480" fill="#e74c3c" font-size="11" font-weight="bold">NO → Fix Bugs</text>
+
+  <!-- YES -->
+  <line x1="820" y1="620" x2="950" y2="620" stroke="#27ae60" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="885" y="610" fill="#27ae60" font-size="11" font-weight="bold">YES</text>
+
+  <!-- END -->
+  <ellipse cx="1050" cy="620" rx="80" ry="30" fill="url(#startEnd)"/>
+  <text x="1050" y="626" text-anchor="middle" fill="white" font-size="14" font-weight="bold">DEPLOY ✅</text>
+
+  <!-- Side features -->
+  <rect x="100" y="720" width="280" height="180" rx="10" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+  <text x="240" y="745" text-anchor="middle" fill="#2c3e50" font-size="14" font-weight="bold">🗺️ Google Maps Features</text>
+  <text x="120" y="770" fill="#555" font-size="11">✓ Draw Rectangle on map</text>
+  <text x="120" y="790" fill="#555" font-size="11">✓ Draw Polygon on map</text>
+  <text x="120" y="810" fill="#555" font-size="11">✓ Draw Circle on map</text>
+  <text x="120" y="830" fill="#555" font-size="11">✓ Save shape coordinates</text>
+  <text x="120" y="850" fill="#555" font-size="11">✓ Edit/Delete shapes</text>
+  <text x="120" y="870" fill="#555" font-size="11">✓ Customer views shapes</text>
+
+  <rect x="420" y="720" width="280" height="180" rx="10" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+  <text x="560" y="745" text-anchor="middle" fill="#2c3e50" font-size="14" font-weight="bold">🔐 Security Features</text>
+  <text x="440" y="770" fill="#555" font-size="11">✓ JWT Authentication</text>
+  <text x="440" y="790" fill="#555" font-size="11">✓ Password hashing (bcrypt)</text>
+  <text x="440" y="810" fill="#555" font-size="11">✓ Role-based access</text>
+  <text x="440" y="830" fill="#555" font-size="11">✓ Owner sees only own data</text>
+  <text x="440" y="850" fill="#555" font-size="11">✓ SQL injection protection</text>
+  <text x="440" y="870" fill="#555" font-size="11">✓ CORS enabled</text>
+
+  <rect x="740" y="720" width="280" height="180" rx="10" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+  <text x="880" y="745" text-anchor="middle" fill="#2c3e50" font-size="14" font-weight="bold">📊 Database Tables</text>
+  <text x="760" y="770" fill="#555" font-size="11">✓ users (customers, owners, admins)</text>
+  <text x="760" y="790" fill="#555" font-size="11">✓ airports</text>
+  <text x="760" y="810" fill="#555" font-size="11">✓ zones (with map shapes)</text>
+  <text x="760" y="830" fill="#555" font-size="11">✓ booths</text>
+  <text x="760" y="850" fill="#555" font-size="11">✓ bookings</text>
+  <text x="760" y="870" fill="#555" font-size="11">✓ payments</text>
+
+  <!-- Footer -->
+  <rect x="250" y="930" width="900" height="40" rx="8" fill="#1a5276"/>
+  <text x="700" y="955" text-anchor="middle" fill="white" font-size="12">Use this prompt in Antigravity IDE / Cursor / Claude to generate the complete system</text>
+</svg>

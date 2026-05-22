@@ -1,0 +1,80 @@
+{
+  "welcome": "Welcome to Noj Tshiab Peb Caug",
+  "system_name": {
+    "en": "Noj Tshiab Peb Caug",
+    "la": "ບຸນກິນຈຽງ (Noj Tshiab Peb Caug)"
+  },
+  "menu": {
+    "home": "Home",
+    "festival_management": "Festival Management",
+    "booth_management": "Booth Management",
+    "booth_subtitle": "Check bookings and site map",
+    "sms_reports": "SMS Reports",
+    "sms_subtitle": "Track SMS notifications and stats",
+    "users": "Users",
+    "profile": "Profile",
+    "settings": "Settings",
+    "settings_subtitle": "Manage users and system info",
+    "user_management": "User Management",
+    "add_user": "Add User",
+    "edit_user": "Edit User",
+    "report": "Reporting System",
+    "open": "Open"
+  },
+  "user": {
+    "username": "Username",
+    "role": "Role",
+    "status": "Status",
+    "phone": "Phone",
+    "last_login": "Last Login",
+    "actions": "Actions",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "booths": {
+    "title": "Booth Management",
+    "subtitle": "Review and approve booth bookings for Noj Tshiab Peb Caug",
+    "refresh": "Refresh",
+    "map_plan": "Booth Plan",
+    "interactive_map": "Interactive Map Plan",
+    "insights": "Insights",
+    "zone_details": "Booking details by zone",
+    "latest_alerts": "Latest Alerts",
+    "booking_list": "Bookings List",
+    "booking_requests": "Manage pending booking requests",
+    "stats": {
+      "total": "Total Booths",
+      "booked": "Booked",
+      "pending": "Pending",
+      "available": "Available"
+    },
+    "toast": {
+      "updated": "Data updated successfully",
+      "available": "Booth {id} is available",
+      "approved": "Booking approved successfully!",
+      "rejected": "Booking rejected"
+    }
+  },
+  "booking": {
+    "title": "Book Booth",
+    "steps": {
+      "info": "Info",
+      "payment": "Payment",
+      "confirm": "Confirm"
+    },
+    "store_info_title": "Please enter store information",
+    "payment_title": "Payment via QR Code",
+    "confirm_title": "Review your information",
+    "price": "Price",
+    "booth": "Booth",
+    "store_name": "Store Name",
+    "owner_name": "Owner Name",
+    "phone": "Phone",
+    "category": "Category",
+    "upload_slip": "Upload Slip",
+    "back": "Back",
+    "next": "Next",
+    "confirm_booking": "Confirm Booking",
+    "wait_approval": "After confirmation, organizers will review within 24 hours."
+  }
+}
